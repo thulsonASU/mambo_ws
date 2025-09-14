@@ -1,4 +1,4 @@
-#!/bin/bash
+eval `ssh-agent -s` # start the agent first ******** <- curse word
 ssh-add -D
 ssh-add ~/.ssh/id_mambo
 
